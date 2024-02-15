@@ -1,13 +1,20 @@
 body {background-color: rgb(58, 58, 58);}
 
+div.siteTitle{
+    font-size: xx-large;
+}
+
 table, th, td{
-    border: 1px solid rgb(58, 58, 58);
+    border: 5px solid #993333;
     border-collapse: collapse;
+    width: 1000px;
+    height: 50px;
+    font-size: larger;
     margin-left: auto;
     margin-right: auto;
 }
 th, td {
-    background-color: #522f2f;
+    background-color: #321313;
 }
 
 body{
@@ -15,22 +22,49 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
+div.article{
+    margin:auto;
+    margin-bottom: 50px;
+    border-style: solid;
+    width:1500px;
+}
+
+p.articletxt{
+    font-size: x-large;
+}
+
 ul.myUL{
     display: inline-block;
     text-align: left;
+    font-size: x-large;
+}
+
+h1.articletitle{
+    font-size: 50px;
 }
 
 p{
   width:1000px;
   padding-top:5px;
   border-style:solid;
-  border-color:#336699;
+  border-color:#993333;
   border-width:1px;
   padding-left:3px;
+  padding-right: 3px;
   padding-bottom:10px;
   word-wrap: break-word;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.imgborder{
+    border-style: solid;
+    border-color: #993333;
+    border-width: 5px;
+    padding-top:1px;
+    padding-left:1px;
+    padding-bottom:1px;
+
 }
 
