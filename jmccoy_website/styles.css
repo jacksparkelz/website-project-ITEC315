@@ -29,6 +29,8 @@ div.article{
     width:1500px;
 }
 
+
+
 p.articletxt{
     font-size: x-large;
 }
@@ -37,6 +39,10 @@ ul.myUL{
     display: inline-block;
     text-align: left;
     font-size: x-large;
+    border: 5px solid #993333;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h1.articletitle{
