@@ -2,7 +2,12 @@ body {background-color: #321313;}
 
 
 div.siteTitle{
-    font-size: xx-large;
+    font-size: 40px;
+    background-color: rgb(58, 58, 58);
+    width: 1000px;
+    text-align: center;
+    margin:auto;
+    border:5px solid #993333
 }
 
 table, th, td{
