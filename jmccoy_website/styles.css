@@ -1,0 +1,117 @@
+body {background-color: #321313;}
+
+
+div.siteTitle{
+    font-size: 40px;
+    background-color: rgb(58, 58, 58);
+    width: 1000px;
+    text-align: center;
+    margin:auto;
+    border:5px solid #993333
+}
+
+table, th, td{
+    border: 5px solid #993333;
+    border-collapse: collapse;
+    width: 1000px;
+    height: 50px;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    background-color: #321313;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.article{
+    margin:auto;
+    margin-bottom: 50px;
+    border-style: solid;
+    width:1500px;
+    background-color: rgb(58, 58, 58);
+}
+
+
+
+p.articletxt{
+    font-size: x-large;
+}
+
+ul.myUL{
+    display: inline-block;
+    text-align: left;
+    font-size: x-large;
+    border: 5px solid #993333;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1.articletitle{
+    font-size: 50px;
+}
+
+p{
+  width:1000px;
+  padding-top:5px;
+  border-style:solid;
+  border-color:#993333;
+  border-width:3px;
+  padding-left:3px;
+  padding-right: 3px;
+  padding-bottom:10px;
+  word-wrap: break-word;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.imgborder{
+    border-style: solid;
+    border-color: #993333;
+    border-width: 5px;
+    padding-top:1px;
+    padding-left:1px;
+    padding-bottom:1px;
+
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  

@@ -1,51 +1,96 @@
 <!DOCTYPE html>
 <html>
+
+    <link rel="icon" type="image/x-icon" href="images/marioclapping.gif">
+    <link rel="stylesheet" href="styles.css">
+
     <head>
+
+        <div id="navbar">
+            <a href="website.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="guides.html">Guides</a>
+            <a href="about.html">About</a>
+        </div>
+
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+            
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+            
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+            
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+              if (window.scrollY >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+
         <title>Jack's Game Reviews</title>
-        <link rel="icon" type="image/x-icon" href="images/marioclapping.gif">
+        
     </head>
 
-    <header>
-        <h1>Jack's Game Reviews</h1>
-    </header>
+    <div class="siteTitle">
+        <header style="color:white;">
+            <h1>Jack's Game Reviews</h1>
+        </header>
+        <h5 style="color: white">Game Reviews, Gaming News, and More!</h5>
+    </div>
+
+    
+
+    <hr>
+
+    
 
     <body>
-        <div>
-            <header><h1>Counter-Strike 2</h1></header>
-            <h3>The ESports King is Back and better than ever</h3>
-            <img src="images/cs2.webp" alt="Counter-Strike 2" width="400" height="225">
-            <p>On September 27th, 2023, Valve officially released their long awaited sequel/remaster/remake of their 
+        <div style="color:white;" class="article">
+            <header>
+                <h1 class="articletitle">Counter-Strike 2</h1>
+                <h3>The ESports King is Back and better than ever</h3>
+            </header>
+            <img src="images/cs2.webp" alt="Counter-Strike 2" width="1000" height="562.5" class="imgborder">
+            <p class="articletxt">On September 27th, 2023, Valve officially released their long awaited sequel/remaster/remake of their 
                 most popular game to date, <i>Counter Strike: Global Offensive</i> (CSGO). CSGO initially came out in 
                 August of 2012 and was still popular and played professionally up until the servers were changed over to CS2. I think this 
                 game is fun but it is hard sometimes.
             </p>
         </div>
 
-        <div>
-            <header><h1>Jack's Top 5 Favorite Games</h1></header>
+        
+
+        <div style="color:white;" class="article">
+            <header><h1 class="articletitle">Jack's Top 5 Favorite Games</h1></header>
             <h3>Not in any particular order</h3>
-            <img src="images/mariogalaxy.webp" alt="Super Mario Galaxy" width="400" height="225">
-            <ul>
+            <img src="images/mariogalaxy.webp" alt="Super Mario Galaxy" width="1000" height="562.5" class="imgborder">
+            <br>
+            <ul class="myUL">
                 <li>Grand Theft Auto 5</li>
                 <li>Super Mario Galaxy 2</li>
                 <li>Super Mario Galaxy</li>
                 <li>Fallout 4</li>
                 <li>Lego Star Wars: The Complete Saga</li>
             </ul>
-            <p>Most of these are my favorites because of just how much I have played them. Some of them aren't the most amazing games 
+            <p class="articletxt">Most of these are my favorites because of just how much I have played them. Some of them aren't the most amazing games 
                 in the world, but they all have a special place in my heart. Fun fact, GTA 5 the game that I have the most play 
                 time in out of any other game (about 1000 hours). <i>Lego Star Wars: The Complete Saga</i> was probably my first 
                 favorite game, just because the only thing going on in my life was Legos and Star Wars, which made that my favorite.
             </p>
         </div>
 
-        <div>
-            <header><h1>Some of the Hottest Games Right Now on Steam</h1></header>
-            <h2>(In no particular order)</h2>
-            <h3>Based on Steam's <a href="https://store.steampowered.com/charts/mostplayed" target="_blank">current players</a> charts as of 2/13/2024</h3>
-            <img src="images/bg3.jpg" alt="Baludurs Gate 3" width="400" height="225">
+        <div style="color:white;" class="article">
+            <header><h1 class="articletitle">Some of the Hottest Games Right Now on Steam</h1></header>
+            <h3>Based on Steam's <a href="https://store.steampowered.com/charts/mostplayed" target="_blank" style="color:red">current players</a> charts as of 2/13/2024</h3>
+            <img src="images/bg3.jpg" alt="Baludurs Gate 3" width="1000" height="562.5" class="imgborder">
             <!-- 4 columns 3 rows -->
-            <table>
+            <table class="tbl">
                 <tr>
                     <td>Counter-Strike 2</td>
                     <td>Dota 2</td>
@@ -65,6 +110,28 @@
                     <td>Enshrouded</td>
                 </tr>
             </table>
+
+            <p class="articletxt">These are the most played games right now on Steam.
+                Not a lot of surprises here, <i>Baldurs Gate 3</i> won Game of the Year
+                at the 2023 Game Awards and is still on top. I'm surprised to see
+                 <i>Apex Legends</i> on this list, I just replayed it for the first time the other 
+                 day since 2022. Not much has changed from what I played but still a good time. 
+                 <i>Grand Theft Auto 5</i> is still going strong on the top charts despite coming out 
+                 in 2013. The hype around <i>Grand Theft Auto 6</i> is real. As far as I know, 
+                 Rockstar Games is still on track for a 2025 release date. <i>Palworld</i> is the 
+                 <i>Pokemon</i>-like game but with guns. Not sure how they have evaded Nintendo's 
+                 legal team, but it's impressive. I haven't played the game myself but I 
+                 have heard that it is plagued with a lack of late-game content. 
+            </p>
+
         </div>
+
+        <div style="color: white" class="article">
+            <header><h1 class="articletitle">HELLDIVERS 2</h1></header>
+            <h2>The sequel we didn't know we needed</h2>
+            <img src="images/helldivers2.jpg" alt="Helldivers 2" width="1000" height="562.5" class="imgborder">
+        </div>
+        
     </body>
+    <img src="images/chimp.jpg" alt="Secret Monkey image" width="32" height="18">
 </html>

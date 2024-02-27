@@ -1,0 +1,5 @@
+rgb(58, 58, 58) background grey
+
+#993333 lighter red for borders
+
+#321313 maroon for accents
